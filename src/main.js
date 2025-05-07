@@ -56,3 +56,5 @@ async function getUser() {
 	Twiter.textContent = TwiterData
 	LinkGithub.textContent = LinkGithubData
 }
+
+console.log("Hello World")
