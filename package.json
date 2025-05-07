@@ -1,0 +1,26 @@
+{
+  "name": "github-user-search-app-",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S29Ducky/GitHub-User-search-app-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S29Ducky/GitHub-User-search-app-/issues"
+  },
+  "homepage": "https://github.com/S29Ducky/GitHub-User-search-app-#readme",
+  "description": ""
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/src/styles.css" />
+		<title>GitHub user search</title>
+	</head>
+	<body>
+		<header>
+			<h1>devfinder</h1>
+			<div class="themeColor">
+				<p>LIGHT</p>
+				<button id="BtnThemeColor">
+					<img src="/IconeSun.svg" alt="Sun" />
+				</button>
+			</div>
+		</header>
+		<main>
+			<label for="">
+				<img src="/loupe.svg" alt="Loupe" />
+				<input
+					id="InputSearchUser"
+					type="text"
+					placeholder="Search GitHub username…"
+				/>
+				<button id="BtnValide">Search</button>
+			</label>
+			<section class="UserResultCase">
+				<article>
+					<div class="pp">
+						<img id="PpUser" src="/pdp.svg" alt="Photo de profil" />
+					</div>
+					<div class="usernam">
+						<h2 id="name">The Octocat</h2>
+						<span id="usernam">@octocat</span>
+						<p id="joined">Joined 25 Jan 2011</p>
+					</div>
+				</article>
+				<div class="bio">
+					<p id="bio">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+						odio. Quisque volutpat mattis eros.
+					</p>
+				</div>
+				<article class="repoFolowe">
+					<div class="infoRepo">
+						<p>Repos</p>
+						<span id="Repos">8</span>
+					</div>
+					<div class="infoRepo">
+						<p>Followers</p>
+						<span id="Followe">3938</span>
+					</div>
+					<div class="infoRepo">
+						<p>Following</p>
+						<span id="Following">9</span>
+					</div>
+				</article>
+				<article class="lienLoc">
+					<span id="infoLocLink"
+						><img src="/pointMap.svg" alt="" />
+						<p id="Locat"></p>
+						San Francisco</span
+					>
+					<span id="infoLocLink"
+						><img src="/IconeUrl.svg" alt="" />
+						<p id="link">https://github.blog</p></span
+					>
+					<span id="infoLocLink"
+						><img src="/twiter.svg" alt="" />
+						<p id="Twiter">Not Available</p></span
+					>
+					<span id="infoLocLink"
+						><img src="/officeBuilding.svg" alt="" />
+						<p id="LinkGithub">@github</p></span
+					>
+				</article>
+			</section>
+		</main>
+	</body>
+	<script type="module" src="/src/main.js"></script>
+</html>
