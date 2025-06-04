@@ -43,7 +43,7 @@ async function getUser() {
 	let TwiterData = data.twitter_username
 	let LinkGithubData = data.html_url
 
-	PpUser.textContent = UserPpData;
+	PpUser.setAttribute("src", UserPpData);
 	loginUser.textContent = loginData;
 	username.textContent = UsernameData;
 	joined.textContent = dateCreationData;
@@ -57,4 +57,3 @@ async function getUser() {
 	LinkGithub.textContent = LinkGithubData
 }
 
-console.log("Hello World")

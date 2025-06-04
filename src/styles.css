@@ -13,9 +13,19 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin-bottom: 50px;
 }
 
-.themeColor {
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label{
+	background-color: #fff;
+	border-radius: 50px;
+	padding: 5px 10px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -23,6 +33,15 @@ header {
 
 #InputSearchUser{
 	color: black;
+	padding: 20px 50px 20px 5px;
+	border: none;
+}
+
+#BtnValide{
+	border: none;
+	color: #141d2f;
+	cursor: pointer;
+	
 }
 
 .lienLoc{
@@ -35,3 +54,4 @@ header {
 	display: flex;
 	flex-direction: row;
 }
+
